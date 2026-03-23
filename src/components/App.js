@@ -5,7 +5,7 @@ const App = () => {
  let [str,setStr]=useState("")
   return (
     <div id="main">
-      <button onClick={()=>setStr("I am learning React. My life is getting better.")}>Show</button>
+      {setStr("I am learning React. My life is getting better.")}
       <p>{str}</p>
     </div>
   )
